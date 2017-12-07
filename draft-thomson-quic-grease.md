@@ -144,10 +144,12 @@ key.
 
 ## FFX Lite
 
-FFX {{is a mode of format-preserving encryption that encrypts values from a space
-of essentially arbitrary size.  FFX would be ideal apart from one significant
+[FFX](https://csrc.nist.gov/CSRC/media/Projects/Block-Cipher-Techniques/documents/BCM/proposed-modes/ffx/ffx-spec.pdf)
+is a mode of format-preserving encryption that encrypts values from a space of
+essentially arbitrary size.  FFX would be ideal apart from one significant
 drawback: FFX is extremely computationally expensive for smaller values, as it
-uses more rounds to ensure that it continues to preserve its security margins.
+uses more rounds for short values to ensure that it continues to preserve its
+security margins.
 
 On the other hand, we're not looking for any actual security, so we wouldn't
 need to have the obscene number of rounds that FFX depends on for small values
