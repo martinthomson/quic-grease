@@ -89,7 +89,7 @@ the connection ID.  A similar approach could be used here.
 For packets that have packet protection, there are many options available.  The
 secret used for generating the packet number gap (packet_number_secret) is a
 candidate.  It might however be better to derive a key from the packet
-protection secrets (client_pp_secret_<N> or server_pp_secret_<N>).
+protection secrets (client_pp_secret_\<N> or server_pp_secret_\<N>).
 
 
 # Pseudo-Random Permutations
